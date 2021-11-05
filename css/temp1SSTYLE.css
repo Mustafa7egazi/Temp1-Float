@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{background-color: rgb(209, 206, 202);}
+.father{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header{
+ width: 100%;
+ height: 150px;
+ background-color: white;
+ text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin-top:60px;
+    
+}
+li{display: inline;
+padding: 10px;
+}
+li:hover
+{
+    cursor: pointer;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+.listItem
+{
+    float: left;
+}
+/* End Header */
+ .firstPart ,.secondPart
+ {
+     background-color: white;
+     width: 70%;
+    margin: 10px;
+ }
+ .firstPart p, .firstPart h2 , .firstPart img ,.secondPart p, .secondPart h2 , .secondPart img
+ {
+     padding: 5px;
+ }
+ /*End of body*/
+
+ .sidebar
+ {
+     float: right;
+     margin: 5px;
+     vertical-align: top;
+     width: 28%;
+     margin-top: -317px;
+    
+ }
+ .sideBlock1 ,.sideBlock2,.sideBlock3
+ {
+     background-color: white;
+     padding: 10px;
+ }
+ .sideBlock2
+ {
+     padding-bottom: 70px;
+ }
+ .sideBlock2,.sideBlock3
+ {
+     margin-top: 10px;
+ }
+ .sideBlock2 p{
+     text-align: center;
+ }
+ /**************************************/
+
+ .footer
+ {
+     background-color: black;
+     color: white;
+     text-align: center;
+     height:25px;
+ }
+ 
+    
+
